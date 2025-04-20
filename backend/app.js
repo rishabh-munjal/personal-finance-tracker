@@ -21,7 +21,8 @@ const allowedOrigins = [
   "https://main.d1sj7cd70hlter.amplifyapp.com",
   "https://expense-tracker-app-three-beryl.vercel.app",
   "http://localhost:3000",
-  "http://54.87.37.113"
+  "http://54.87.37.113",
+  "https://spendsmart.duckdns.org",
   // add more origins as needed
 ];
 

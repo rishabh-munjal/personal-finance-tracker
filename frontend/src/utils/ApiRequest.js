@@ -1,5 +1,5 @@
 // const host = "https://expense-tracker-app-knl1.onrender.com";
-const host = "http://54.87.37.113:5000";
+const host = "https://spendsmart.duckdns.org";
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
 export const loginAPI = `${host}/api/auth/login`;
