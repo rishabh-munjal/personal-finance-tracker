@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { connectDB } from "./DB/Database.js";
+import { docClient } from "./DB/Database.js";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import helmet from "helmet";
@@ -15,12 +15,11 @@ const app = express();
 
 const port = 5000;
 
-connectDB();
-
 const allowedOrigins = [
   "https://main.d1sj7cd70hlter.amplifyapp.com",
   "https://expense-tracker-app-three-beryl.vercel.app",
   "http://localhost:3000",
+  "http://localhost:5000",
   "http://54.87.37.113",
   "https://spendsmart.duckdns.org",
   // add more origins as needed
